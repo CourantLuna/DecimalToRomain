@@ -22,7 +22,7 @@ static string DecimalToRomain(int number)
     string[] thousands = { "", "M", "MM", "MMM" };
     string[] hundreds = { "", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM" };
     string[] tens = { "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC" };
-    string[] units = { "", "I", "II", "III", "IV", "V", "VI", "VI", "VII", "IV" };
+    string[] units = { "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IV" };
 
     return thousands[number / 1000] +
            hundreds[(number % 1000) / 100] +

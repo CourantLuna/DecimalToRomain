@@ -18,7 +18,7 @@ while (continueConversion)
         //validacion numerica (rechazar entrada no numerica)
         if(!int.TryParse(input, out number) || number < 1 || number > 3999) 
         {
-            Console.WriteLine("Invalid input. Please enter a valid decimal number");
+            Console.WriteLine("Invalid input. Please enter a valid decimal number")
         }
 
     } while (!int.TryParse(input, out number) || number < 1 || number > 3999);

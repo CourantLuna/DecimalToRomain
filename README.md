@@ -60,6 +60,6 @@ Copy code
 npm test
 Contribuciones
 Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar tan poderoso para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
-
+```
 Si tienes una sugerencia para mejorar esto, por favor fork el repositorio y crea un pull request. También puedes simplemente abrir un issue con la etiqueta "mejora".
 No olvides darle una estrella al proyecto!

@@ -1,65 +1,62 @@
-# DecimalToRomain
+# DecimalToRoman
 
-# Conversor de Números Arábigos a Romanos
+# Arabic to Roman Numerals Converter
 
-Esta aplicación de consola está diseñada para convertir números enteros arábigos en su equivalente en números romanos. Es una herramienta simple pero poderosa que acepta entradas de 1 a 3999 y devuelve la representación correcta en numeración romana.
+This console application is designed to convert Arabic integers into their Roman numeral equivalents. It's a simple yet powerful tool that accepts inputs from 1 to 3999 and returns the correct Roman numeral representation.
 
-## Características
+## Features
 
-- **Conversión precisa**: Convierte números del 1 al 3999 al equivalente romano.
-- **Validación de entrada**: Asegura que sólo se introduzcan números válidos dentro del rango aceptado.
-- **Interfaz de usuario intuitiva**: Fácil de usar desde cualquier consola o terminal.
-- **Manejo de errores robusto**: Ofrece retroalimentación clara cuando se introducen datos incorrectos.
+- **Accurate Conversion**: Converts numbers from 1 to 3999 to their Roman equivalents.
+- **Input Validation**: Ensures that only valid numbers within the accepted range are entered.
+- **Intuitive User Interface**: Easy to use from any console or terminal.
+- **Robust Error Handling**: Provides clear feedback when incorrect data is entered.
 
-## Empezando
+## Getting Started
 
-Para usar esta aplicación, sigue los siguientes pasos:
+To use this application, follow the steps below:
 
-### Prerrequisitos
+### Prerequisites
 
-Asegúrate de tener instalado [Node.js](https://nodejs.org/) en tu sistema.
+Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-### Instalación
+### Installation
 
-Clona el repositorio en tu máquina local utilizando el siguiente comando en tu terminal:
+Clone the repository to your local machine using the following command in your terminal:
 
 ```shell
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/your-username/your-repository.git
 ```
 
-```css
-Copy code
-```
-
-Navega al directorio del repositorio clonado y ejecuta:
+Navigate to the cloned repository directory and run:
 ```shell
 npm install
 ```
 
-### Uso
+### Usage
 
-Para iniciar la aplicación, ejecuta:
+To start the application, run:
 ```shell
 node app.js
 ```
 
-Sigue las instrucciones en pantalla para ingresar un número arábigo y recibir su conversión a número romano.
+Follow the on-screen instructions to enter an Arabic number and receive its conversion to a Roman numeral.
 
-## Ejemplos de Uso
+## Usage Examples
 
 ```shell
 $ node app.js
-Ingrese un número arábigo para convertir: 23
-El número romano es: XXIII
+Enter an Arabic number to convert: 23
+The Roman numeral is: XXIII
 ```
 
-##Pruebas
-Para ejecutar las pruebas automatizadas, utiliza:
+## Testing
+To run automated tests, use:
 ```bash
 npm test
 ```
-##Contribuciones
-Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar tan poderoso para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
 
-Si tienes una sugerencia para mejorar esto, por favor fork el repositorio y crea un pull request. También puedes simplemente abrir un issue con la etiqueta "mejora".
-No olvides darle una estrella al proyecto!
+## Contributions
+Contributions are what make the open-source community such a powerful place to learn, inspire, and create. Any contributions you make will be greatly appreciated.
+
+If you have a suggestion to improve this, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star!

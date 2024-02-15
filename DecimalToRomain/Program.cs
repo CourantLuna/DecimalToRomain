@@ -6,7 +6,14 @@ ID: 1107303
  */
 
 Console.WriteLine("Enter a decimal number to convert to Roman numeral: ");
-int number = int.Parse(Console.ReadLine());
+string input= Console.ReadLine();
+
+//validacion numerica (rechazar entrada no numerica)
+if(!int.TryParse(input, out int number)) 
+{
+    Console.WriteLine("Invalid input. Please enter a valid decimal number. "); 
+    return;
+}
 
 if(number < 1 || number > 3999) 
 {

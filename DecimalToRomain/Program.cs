@@ -5,24 +5,34 @@ Autor: Heydi Garcia Sanchez
 ID: 1107303
  */
 
-Console.WriteLine("Enter a decimal number to convert to Roman numeral: ");
-string input= Console.ReadLine();
+bool continueConversion = true;
+while (continueConversion) 
+{  
+    int number;
+    string input;
 
-//validacion numerica (rechazar entrada no numerica)
-if(!int.TryParse(input, out int number)) 
-{
-    Console.WriteLine("Invalid input. Please enter a valid decimal number. "); 
-    return;
-}
+    do
+    {
+        Console.Write("Enter a decimal number to convert to Roman numeral: ");
+        input = Console.ReadLine();
+        //validacion numerica (rechazar entrada no numerica)
+        if(!int.TryParse(input, out number) || number < 1 || number > 3999) 
+        {
+            Console.WriteLine("Invalid input. Please enter a valid decimal number");
+        }
 
-if(number < 1 || number > 3999) 
-{
-    Console.WriteLine("Please enter a number between 1 and 3990.");
-    return;
-}
+    } while (!int.TryParse(input, out number) || number < 1 || number > 3999);
 
-string result = DecimalToRomain(number);
-Console.WriteLine($"Roman numeral: {result}");
+    string result = DecimalToRomain(number);
+    Console.WriteLine($"Roman numeral: {result}");
+
+    Console.WriteLine("Continue or Try again? write down Y/N");
+    string choice = Console.ReadLine().Trim().ToUpper();
+    if (choice != "Y")
+    {
+        continueConversion = false;
+    }
+} 
 
 static string DecimalToRomain(int number) 
 {

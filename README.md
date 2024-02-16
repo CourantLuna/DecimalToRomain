@@ -24,7 +24,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 Clone the repository to your local machine using the following command in your terminal:
 
 ```shell
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/CourantLuna/DecimalToRomain.git
 ```
 
 Navigate to the cloned repository directory and run:
